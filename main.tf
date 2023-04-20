@@ -44,7 +44,7 @@ resource "aws_security_group" "instance" {
 }
 
 variable "security_group_name" {
-  description = "The name of the security group"
+  description = "The name of the security groups"
   type        = string
   default     = "terraform-example-instance"
 }
